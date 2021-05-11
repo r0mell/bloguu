@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?76301f2ae1e6e17733c6591fd4663529") format("truetype"),
-url("./flaticon.woff?76301f2ae1e6e17733c6591fd4663529") format("woff"),
-url("./flaticon.woff2?76301f2ae1e6e17733c6591fd4663529") format("woff2"),
-url("./flaticon.eot?76301f2ae1e6e17733c6591fd4663529#iefix") format("embedded-opentype"),
-url("./flaticon.svg?76301f2ae1e6e17733c6591fd4663529#flaticon") format("svg");
+    src: url("./flaticon.ttf?a60a1a6c53dfadfe3fbb648abb729667") format("truetype"),
+url("./flaticon.woff?a60a1a6c53dfadfe3fbb648abb729667") format("woff"),
+url("./flaticon.woff2?a60a1a6c53dfadfe3fbb648abb729667") format("woff2"),
+url("./flaticon.eot?a60a1a6c53dfadfe3fbb648abb729667#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a60a1a6c53dfadfe3fbb648abb729667#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -26,4 +26,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-facebook:before {
     content: "\f103";
+}
+.flaticon-linkedin:before {
+    content: "\f104";
 }
