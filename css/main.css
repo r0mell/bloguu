@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+
 body {
+    font-family: 'Roboto Mono' , monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -19,6 +23,7 @@ header{
     height: 140px;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 10px;
 }
 
 header .header-icons-container{
@@ -75,8 +80,69 @@ nav .profile-link a{
     color: black;
     border-bottom: 1px solid black;
     font-family: Helvetica;
+
 }
 
+.home-main{
+
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    
+    background-image: url("../assets/img/astro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+     
+
+}
+
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+
+
+}
+
+.home-main-text{
+    font-family:  'Roboto mono', monospace ;
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+   
+    
+
+}
+
+.home-main-button{
+    display: grid;
+    width: 110px;
+    height: 50px;
+    background-color: #2d51a3;
+    align-items: center;
+    border-radius: 8%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  
+
+}
+
+.home-main-button a{
+    font-weight: 700;
+    font-size: 18px;
+
+ 
+
+}
+
+/*
 main{
     width: 100%;
     height: 100%;
@@ -115,6 +181,7 @@ main .button-container button{
     position: absolute;
     top: 50%;
     left: 50%;
+    transform:  translate(-50%,-50%);
     border-radius: 25%;
     font-size: 20pt;
     color: cadetblue;
