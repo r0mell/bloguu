@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="stylesheet" type="text/css" href="./css/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+
+
     <title>Bloguu</title>
 
 </head>
@@ -13,36 +18,75 @@
 <body>
 
     <header>
-        <section>
-            <div>
-                <a href="">f</a>
-                <a href="">y</a>
-                <a href="">l</a>
-                <a href="">t</a>
-                <a href="">i</a>
-            </div>
 
+        <section class="header-icons-container">
+            <div class="icons">
+                <a href="/"><i class="flaticon-linkedin"></i></span></a>
+                <a href="/"><i class="flaticon-facebook"></i></a>
+                <a href=""><i class="flaticon-youtube"></i></a>
+                <a href=""><i class="flaticon-instagram"></i></a>
+            </div>
         </section>
 
         <nav>
-            <section>
-                <a href="">logo</a>
-            </section>
-            <section>
-                <a href="/perfil.html">sobre mi</a>
+            <section class="nav-logo-container">
+                <a href="/"><img src="assets/img/Logo_Bloguu.png" alt="Logo de Bloguu"></a>
             </section>
 
+            <section class="profile-link">
+                <a href="/perfil.html">Sobre mi</a>
+            </section>
         </nav>
+
     </header>
 
 
-    <div id="cabecera">
-        <h1 id="titulo">Nuevo blog</h1>
-        <p id="parrafo">esta es la historia de mi carrera desde que inicie dentro de la EPN</p>
-        <p>aqui empieza la parte del body donde se explicara la forma de ser </p>
-        <p>puedo identificar los cambios que estamos realizando</p>
-    </div>
+    <main>
 
+        <section class="grid-container blogpost-img-container">
+            <img src="/assets/img/blog1.png" alt="">
+        </section>
+
+        <section class="blogpost-main-container">
+            <div class="grid-container">
+                <h3>Noticias</h3>
+                <article>
+                    <h1>Título del Blogpost</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eaque magnam consequuntur harum quae quis et? Maxime assumenda possimus error!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem voluptatibus expedita pariatur porro magni blanditiis alias laudantium, aspernatur culpa cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil incidunt
+                        cupiditate doloribus, odio sequi totam atque assumenda eligendi quo veritatis.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere voluptatem tenetur minus in quaerat! Nostrum repellat officiis ipsum laborum?</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-main-container">
+            <div>
+                <img src="/assets/img/Logo_Bloguu.png" alt="">
+                <div class="contact-left">
+                    <a href="/">Contacto</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, totam.</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="/assets/img/Logo_Bloguu.png" alt="">
+                <div class="contact-rigth">
+                    <a href="/">Escribe</a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, enim.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, voluptatum.</p>
+    </footer>
 
 </body>
 
